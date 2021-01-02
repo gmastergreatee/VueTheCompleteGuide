@@ -14,7 +14,10 @@ const app = Vue.createApp({
     },
     setName(e) {
       this.name = e.target.value;
-    }
+    },
+    submitForm() {
+      alert('Submitted successfully');
+    },
   }
 });
 
