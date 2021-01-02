@@ -31,7 +31,7 @@
 
     <input type="text" v-model="name">
     <button @click="resetInput">Reset Input</button>
-    <p>Your name: {{ name }}</p>
+    <p>Your name: {{ getFullName }}</p>
 
     <form @submit.prevent="submitForm">
       <input type="text">
